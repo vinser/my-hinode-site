@@ -1,0 +1,6 @@
+/_vendor
+docs/
+resources/
+node_modules/
+
+site/.hugo_build.lock

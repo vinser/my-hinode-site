@@ -1,0 +1,17 @@
+publishDir = "../docs"
+resourceDir = "../resources"
+
+baseURL = 'https://example.org/'
+
+title = "My Hinode Site"
+copyright = "Copyright © 2024 Serguei Vine."
+paginate = 9
+enableGitInfo = false
+
+languageCode = "en-us"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+
+[[module.imports]]
+path = 'github.com/gethinode/hinode'
