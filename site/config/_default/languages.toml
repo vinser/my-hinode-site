@@ -3,16 +3,16 @@
 languageName = "English"
 contentDir = "content/en"
 weight = 1
-# toml-docs-end lang-main
-# toml-docs-start lang-param
+
 [en.params.head]
 tagline = "A Hugo Theme"
 [en.params.social]
 title = "Follow me"
-caption = "I enjoy coding"
+caption = ""
+# caption = "I enjoy coding"
 [en.params.footer]
 # license = "Licensed under Creative Commons (<a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' class='link-secondary' target='_blank' rel='noopener noreferrer'>CC BY-NC-SA 4.0</a>)."
-# toml-docs-end lang-param
+
 [en.params.sections.apps]
 reference = "More Apps"
 [en.params.sections.news]
@@ -22,13 +22,16 @@ reference = "More News"
 languageName = "Русский"
 contentDir = "content/ru"
 weight = 2
+
 [ru.params.head]
 tagline = "Hugo-Тема"
 [ru.params.social]
-title = "Подписаться"
-caption = "Увлекаюсь программированием"
+title = "Следуйте за мной"
+caption = ""
+# caption = "Мне нравится программировать"
 [ru.params.footer]
 # license = "Gelicenseerd onder Creative Commons (<a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' class='link-secondary' target='_blank' rel='noopener noreferrer'>CC BY-NC-SA 4.0</a>)."
+
 [ru.params.sections.apps]
 reference = "Больше приложений"
 [ru.params.sections.news]

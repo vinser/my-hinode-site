@@ -1,7 +1,7 @@
 publishDir = "../docs"
 resourceDir = "../resources"
 
-baseURL = 'https://example.org/'
+baseURL = 'https://user.github.io/subfolder/'
 
 title = "My Hinode Site"
 copyright = "Copyright © 2024 Serguei Vine."

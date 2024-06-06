@@ -6,7 +6,7 @@
 - id: read
   translation: "read"
 - id: minutesShort
-  translation: "min"
+  translation: "мин"
 - id: words
   translation: "words"
 - id: photoFull

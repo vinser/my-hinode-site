@@ -1,6 +1,9 @@
-/_vendor
+_vendor
+public/
 docs/
 resources/
 node_modules/
 
-site/.hugo_build.lock
+.DS_store
+.hugo_build.lock
+favicon_package_v0.16.zip

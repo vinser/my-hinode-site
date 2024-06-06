@@ -9,10 +9,14 @@
     loading = "lazy"
     breakpoint = "md"
     [main.externalLinks]
-        cue = false
-        tab = false
+        cue = true
+        tab = true
     [main.build]
         transpiler = "libsass"
+
+# [favicon]
+#     logo = "img/V.png"
+    # sizes = [16, 32, 48]
 
 [home]
     sections = ["apps", "news"]
@@ -20,13 +24,14 @@
     centerHeadline = false
     style = ""
     [home.feature]
-        orientation = "horizontal"
-        color = "primary"
-        width = 4
+        orientation = "horisontal"
+        color = ""
+        width = 6
         align = "start"
+        justify = "between"
 
 [navigation]
-    logo = "/img/SV.svg"
+    logo = "/img/VC-logo.svg"
     # anchor = true
     # color = "body"
     # fixed = true
@@ -46,16 +51,16 @@
     [sections.apps]
         title = "Apps"
         sort = "weight"
-        # reverse = false
-        # cols = 3
-        # color = ""
-        # padding = "0"
-        # header = "full"
-        # footer = "none"
-        # orientation = "stacked"
-        # style = "border-0 card-zoom card-body-margin"
+        reverse = false
+        cols = 3
+        color = ""
+        padding = "0"
+        header = "none"
+        footer = "none"
+        orientation = "stacked"
+        style = "border-0 card-zoom card-body-margin"
         # homepage = 3
-        # separator = true
+        separator = true
     [sections.news]
         title = "News"
         sort = "date"
@@ -72,6 +77,31 @@
         # style = "border-1 card-emphasize"
         # homepage = 3
         # separator = false
+
+[favicon]
+    logo = "img/favicon.png"
+    sizes = [16, 32, 48]
+
+[style]
+    # primary = "#d43900"
+    primary = "#0d6efd"
+    secondary = "#6c757d"
+    success = "#198754"
+    info = "#0dcaf0"
+    warning = "#ffc107"
+    danger = "#dc3545"
+    light = "#f8f9fa"
+    dark = "#212529"
+
+    themeOpacity = "10"
+    darkModeShade = "20%"
+    darkModeTint = "40%"
+    
+    themeFont = "Inter"
+    themeFontPath = "/fonts" # local path
+    themeFontPreload = "/fonts/inter-v12-latin-regular.woff2"
+    fontSizeBase = "1rem" # assumes the browser default, typically '16px'
+    purge = false
 
 [links]
     flibgolite_project = "https://github.com/vinser/flibgolite"
